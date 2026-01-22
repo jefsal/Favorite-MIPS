@@ -16,6 +16,9 @@ The game takes place on an x,y grid. For every step, the human player inputs a m
  - Stack Usage, MIPS Conventions
     When calling functions, the program explicitly saves the return address of the caller ($ra) and the caller-saved registers ($s0-$s7) which must be preserved onto the stack before beginning function operations, and restored in proper order before returning to the caller.
 
+## Flowchart
+![Game loop flowchart](flowchart.svg)
+
 ### How to run
  1. Download MARS (MIPS Assembly and Runtime Simulator) IDE from the official source
     - More here dpetersanderson dot github dot io
